@@ -5,8 +5,8 @@ header{
   background-color:#9a8c98;
  
 }
-h1{
-  font-family:"Playfair Display";
+h1{ 
+  font-family:"Playfair Display"; 
   font-color:#22223B;
   text-align: center;
 }
@@ -14,14 +14,17 @@ h2{
   font-family: "Playfair Display";
   font-color:#22223B;
   text-align: center;
-  font-weight: 100px;
+  font-weight: 100px; /* how thick the letters will be*/
 }
 article{
   background-color:#f2e9e4;
   text-align:center;
   
 }
-ol{
+ol{ /*list will be centered with rest of text*/
+  text-align: center;
+}
+ul{ /* list will be centered with rest of text*/
   text-align: center;
 }
 h3{
@@ -34,13 +37,13 @@ p{
   font-color:#4a4e69;
   text-align: center;
 }
-main {
+main { /* how its all contained/wrapped in on the webpage */
   border: 5px solid #9a8c98;
   padding: 10px;
   background-color:#f2e9e4;
   margin: auto;
 }
-.list-inside li {
+.list-inside li { /*indented the bullets and numbers with the list itself*/
   list-style-position: inside;
 }
 footer{
@@ -48,5 +51,5 @@ footer{
   font-size: 16px;
   height: 30px;
 }
-a:link    { color:#4a4e69 ;  }
-a:visited { color:#9a8c98;   }
+a:link    { color:#4a4e69 ;  } /* color of link*/
+a:visited { color:#9a8c98;   } /* color of link once it's been clicked*/
